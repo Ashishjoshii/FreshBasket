@@ -5,7 +5,6 @@ import Home from './pages/Home.jsx'
 import { Toaster } from 'react-hot-toast';
 import Footer from './components/Footer.jsx';
 import { useAppContext } from './context/AppContext.jsx';
-import Login from './components/login.jsx';
 import AllProducts from './pages/AllProducts.jsx';
 import ProductCategory from './pages/ProductCategory.jsx';
 import ProductDetails from './pages/ProductDetails.jsx';
@@ -17,6 +16,7 @@ import SellerLayout from './pages/seller/SellerLayout.jsx';
 import AddProduct from './pages/seller/AddProduct.jsx';
 import ProductList from './pages/seller/ProductList.jsx'
 import Orders from './pages/seller/Orders.jsx'
+import Login from './components/Login.jsx';
 
 const App = () => {
   const isSellerPath = useLocation().pathname.includes("seller");
